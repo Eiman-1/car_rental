@@ -1,9 +1,17 @@
-@import 'bootstrap/dist/css/bootstrap.min.css'; 
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
 * {
   margin: 0;
   font-family: "Arial";
   color: #333;
 }
+
+.payment-background {
+  background-image: url(.././src/Assets/Images/paymentIllustration.jpg);
+  background-repeat: no-repeat;
+  height: 70vh;
+}
+
 .navbar {
   padding: 20px;
   display: flex;
@@ -12,20 +20,25 @@
   margin: 0 auto;
   border-bottom: 1px solid #201f1f;
 }
+
 .navbar h1 {
   color: #645be4;
 }
+
 .navbar .links {
   margin-left: auto;
 }
+
 .navbar a {
   margin-left: 30px;
   text-decoration: none;
   padding: 10px;
 }
+
 .navbar a:hover {
   color: #35b2f1;
 }
+
 .content {
   max-width: 600px;
   margin: 40px auto;
@@ -40,20 +53,25 @@
   margin: 0 auto;
   border-bottom: 1px solid #201f1f;
 }
+
 .navbar h1 {
   color: rgb(22, 21, 21);
 }
+
 .navbar .links {
   margin-left: auto;
 }
+
 .navbar a {
   margin-left: 30px;
   text-decoration: none;
   padding: 10px;
 }
+
 .navbar a:hover {
   color: rgb(207, 59, 59);
 }
+
 .content {
   max-width: 600px;
   margin: 40px auto;
@@ -101,25 +119,33 @@
 
 .payment-illustration-container {
   flex-shrink: 0;
-  width: 40%; /* Adjust as needed */
+  width: 40%;
+  /* Adjust as needed */
 }
 
 .payment-illustration {
   width: 100%;
   max-width: 400px;
   border-radius: 10px;
-  animation: bounce 2s infinite; /* Example animation */
+  animation: bounce 2s infinite;
+  /* Example animation */
 }
 
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     transform: translateY(0);
   }
+
   40% {
     transform: translateY(-20px);
   }
+
   60% {
     transform: translateY(-10px);
   }
 }
-
