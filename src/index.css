@@ -9,6 +9,7 @@
 .payment-background {
   background-image: url(.././src/Assets/Images/paymentIllustration.jpg);
   background-repeat: no-repeat;
+  position: absolute;
   height: 70vh;
 }
 
@@ -26,7 +27,7 @@
 }
 .paymentIllustration{
   width: 25%;
-  margin-left: 19%;
+  /* margin-left: 19%; */
   position: absolute;
   z-index: -2;
 }

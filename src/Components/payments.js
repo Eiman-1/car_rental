@@ -33,11 +33,12 @@ const Payment = () => {
                   Cash On Delivery
                 </Button>
               </div>
+             
+            
+              <div>
               <div>
               <img src={paymentIllustration} alt="Payment Options" className="mb-4 paymentIllustration payment-illustration" />
               </div>
-            
-              <div>
                 {showCreditCard && <CreditCard />}
                 {showCashOnDelivery && <CashOnDelivery />}
               </div>
