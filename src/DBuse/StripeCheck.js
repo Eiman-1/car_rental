@@ -45,9 +45,9 @@ const StripeCheckout = () => {
   };
   return (
     <div>
-      <Container>
+      <Container >
         <Row>
-          <Col md={6} className="m-auto">
+          <Col md={6} className="m-auto margin_bottom">
             <Card className="shadow border-0   p-2 mt-3 ">
               <CardBody className="px-lg-5 pt-lg-2 pb-lg-2">
                 <div className=" ">

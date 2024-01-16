@@ -21,6 +21,17 @@
   border-bottom: 1px solid #201f1f;
 }
 
+.margin_bottom {
+  margin-bottom: 5rem !important;
+}
+.paymentIllustration{
+  width: 25%;
+  margin-left: 19%;
+  position: absolute;
+  z-index: -2;
+}
+
+
 .navbar h1 {
   color: #645be4;
 }

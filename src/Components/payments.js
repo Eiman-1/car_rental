@@ -21,7 +21,7 @@ const Payment = () => {
 
   return (
     <>
-      <Container> 
+      <Container>
         <Row>
           <Col>
             <div >
@@ -34,6 +34,10 @@ const Payment = () => {
                 </Button>
               </div>
               <div>
+              <img src={paymentIllustration} alt="Payment Options" className="mb-4 paymentIllustration" />
+              </div>
+            
+              <div>
                 {showCreditCard && <CreditCard />}
                 {showCashOnDelivery && <CashOnDelivery />}
               </div>
@@ -42,42 +46,6 @@ const Payment = () => {
 
       </Container>
 
-
-      <div className="">
-        {/* <div className="payment-content">
-    <div className="payment-text">
-      <h2 className="payment-title">Payment Section</h2>
-      <p className="payment-subtitle">Secure and Easy Transactions</p>
-      
-    </div>
-    <div className="payment-illustration-container">
-      <img
-        src={paymentIllustration}
-        alt="Payment Illustration"
-        className="payment-illustration"
-      />
-    </div>
-  </div> */}
-        {/* <Modal isOpen={modal} toggle={toggle}>
-    <ModalHeader toggle={toggle}>Choose Payment Method</ModalHeader>
-    <ModalBody>
-      <div className="payment-options">
-        <Link to="/cash-on-delivery">
-          <Button className="payment-option-btn payment-btn mx-2">
-            <span>Cash on Delivery</span>
-          </Button>
-        </Link>
-        <Link to="/credit-card">
-          <Button className="payment-option-btn payment-btn">
-            <span>Credit Card</span>
-          </Button>
-        </Link>
-      </div>
-    </ModalBody>
-  </Modal> */}
-
-
-      </div>
     </>
 
   );
