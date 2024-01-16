@@ -34,7 +34,7 @@ const Payment = () => {
                 </Button>
               </div>
               <div>
-              <img src={paymentIllustration} alt="Payment Options" className="mb-4 paymentIllustration" />
+              <img src={paymentIllustration} alt="Payment Options" className="mb-4 paymentIllustration payment-illustration" />
               </div>
             
               <div>
