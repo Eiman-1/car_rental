@@ -27,7 +27,7 @@
 }
 .paymentIllustration{
   width: 25%;
-  /* margin-left: 19%; */
+  margin-left: 19%;
   position: absolute;
   z-index: -2;
 }
